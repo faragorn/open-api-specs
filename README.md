@@ -1,7 +1,7 @@
 # OpenAPI Specifications
 
-This is what I hope will become a collective library of [OpenAPI Specifications (formerly Swagger)](https://swagger.io/) for various Public APIs.
-
+This is what my collection of [OpenAPI specs(formerly Swagger)](https://swagger.io/) for various Public APIs.
+All of the API definitions will be contributed to a larger library: [https://github.com/APIs-guru/openapi-directory](https://github.com/APIs-guru/openapi-directory)
 
 Feel free to contribute your API specifications, please see the [contributing guide](#contributing-guide)
 
@@ -21,10 +21,10 @@ All specifications should be added under respective folder in `specs` directory.
 
 #### API Versioning
 
-All APIs often change and new versions emerge. To support this create a version folder in the respective API folder. It should be always prefixed by `v`. If the API is not versioned, lets assume its' version is 1. Example: Giphy API version is 1, so the folder name should be: `specs/giphy_api/v1`
+All APIs often change and new versions emerge. To support this create a version folder in the respective API folder. It should be always followed by minor patch number even if it is `0`. If the API is not versioned, lets assume its' version is `1.0`. Example: Giphy API version is `1`, so the folder name should be: `specs/giphy_api/1.0`
 
 #### Specification file
-Specifications file should only be added under corresponding version number folder, described above. For single file specification filename should always be `index`. For multiple files, there should always be file named `index`. You specification can be represented in JSON or YAML formats. Example: `specs/giphy/v1/index.yml`
+Specifications file should only be added under corresponding version number folder, described above. For single file specification filename should always be `index`. For multiple files, there should always be file named `index`. You specification can be represented in JSON or YAML formats. Example: `specs/giphy/1.0/index.yml`
 
 #### Misc
 Please make sure your passes Swagger parser validations and don't forget to add a line to a README.md file.
