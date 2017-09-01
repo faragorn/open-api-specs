@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   description: Giphy API
-  version: '1'
+  version: '1.0'
   title: Giphy API
   termsOfService: https://developers.giphy.com/
   contact:
